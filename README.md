@@ -1,2 +1,20 @@
-# Flux-
- A lightning-fast, aesthetic quiz and mock-test engine designed specifically for engineering and medical entrance exams (JEE &amp; NEET). Features high-yield question banks, detailed analytics, and a seamless developer-friendly codebase.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/1c1f69ac-e886-43bd-99ac-9e107c8c026a
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

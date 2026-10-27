@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#334155" stroke-width="6" opacity="0.6" />
+
+  <!-- Shield / Forge Core -->
+  <path d="M 256 80 L 390 140 C 390 280 256 380 256 400 C 256 380 122 280 122 140 Z" fill="url(#primaryGrad)" />
+  <path d="M 256 100 L 370 152 C 370 268 256 358 256 376 C 256 358 142 268 142 152 Z" fill="#0F172A" opacity="0.4" />
+
+  <!-- Central Spark / Star of Knowledge -->
+  <polygon points="256,150 274,214 338,232 274,250 256,314 238,250 174,232 238,214" fill="url(#goldGrad)" />
+  <circle cx="256" cy="232" r="14" fill="#FFFFFF" />
+
+  <!-- QF Letters -->
+  <text x="256" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">QUIZFORGE</text>
+  <text x="256" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#93C5FD" text-anchor="middle" letter-spacing="6">CLASS 11 EXAM PREP</text>
+  
+  <!-- Creator Monogram Badge -->
+  <circle cx="410" cy="410" r="38" fill="#1E293B" stroke="#3B82F6" stroke-width="4" />
+  <text x="410" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#60A5FA" text-anchor="middle">MR</text>
+</svg>
